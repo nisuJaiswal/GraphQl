@@ -137,7 +137,7 @@ const mutation = new GraphQLObjectType({
                         },
 
                     }),
-                    defaultValue: 'not started',
+                    defaultValue: 'new',
                 },
                 clientId: { type: new GraphQLNonNull(GraphQLID) }
             },
